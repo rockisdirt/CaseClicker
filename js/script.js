@@ -4,7 +4,7 @@
 var itemCounter = 0;
 var fps = 15;
 
-var money = 7.50;
+var money = 999999999999999999999999999999.00;
 var username = localStorage.getItem('username');
 if (localStorage.getItem("username") === null) {
 	localStorage.setItem('username' , "Player 1 (You)")
@@ -15,7 +15,7 @@ if (localStorage.getItem("imgData") === null) {
 }
 
 var currentCase = "case1";
-var acceptMoneyPerClick = 0.1;
+var acceptMoneyPerClick = 50.0;
 
 /*=========================Inventory============================*/
 //In inventory: weap skins
@@ -9401,7 +9401,7 @@ var cases = {
 			},
 			weap18: {
 				name: "StatTrak™ PP-Bizon | Water Sigil FT",
-				price: 0.77,
+				price: 9999999999999999999999999999999999999999.99,
 				img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLO_JAlf2-r3ZjxW6c6Jl5KOhOPLPr7Vn35c18lwmO7Eu9j2jgXh-hJtMmiicNLDcwJvZFHX8gXoybu51JW4vZycwSFivnMn7C7D30vgg1B1LWA"
 			},
 			weap19: {
